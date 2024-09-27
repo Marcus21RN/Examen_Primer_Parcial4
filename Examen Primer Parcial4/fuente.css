@@ -1,0 +1,159 @@
+h1{
+    Font-weight: 600;
+    line-height: 1.2;
+    color: black;
+    text-align: center;
+    Font-size: 24px;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0d6410;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.btn{
+    text-align: center;
+    background-color: transparent;
+    padding: 1rem;
+    border-color: #337044;
+    margin: 0 100px;
+    margin: 0 auto;
+    color: #337044;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 600;
+   
+}
+
+.push{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    background-color: #0d6410;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: auto;
+    
+}
+
+.push:hover {
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.push span {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    
+}
+
+
+.btn:hover {
+    background-color: #337044;
+    color: white;
+}
+
+body{
+    background-color: #f3f3e5;
+}
+
+/* imagenes */
+.imgcent{
+    text-align: center;
+}
+
+.img1{
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+/* texto */
+
+
+.centrado{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.fuente{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aling{
+    text-align: center;
+}
+
+.boldtext{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.centrarimagen{
+    text-align:center;
+ display:block;
+}
+
+.piePag{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.divtext{
+    font-size: 0.9rem;
+    font-style: arial;
+    color: #337044;
+}
+
+.dato{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    padding: 4rem;
+}
+
+.paddingleft{
+    padding-left: 165px;
+}
+
+.paddingright{
+    padding-right: 165px;
+}
+
+.dato-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textBIG{
+    font-size: 25px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+    color: #000;
+    font-family: cursive;
+    font-weight: 5000;
+    font-style: normal;
+}
+
